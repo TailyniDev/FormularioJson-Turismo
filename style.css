@@ -1,0 +1,64 @@
+body {
+    background-color: #E0F7FA; 
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.forms {
+    background: linear-gradient(135deg, #FFFFFF 0%, #F1F8E9 100%); /* Branco para Verde Claro */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
+    border: 1px solid #B2DFDB;
+}
+
+label {
+    color: #004D40;
+    display: block;
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+input, select {
+    background-color: #FFFFFF; 
+    border: 2px solid #4CAF50;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    color: #333333; 
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+input[type="text"]:focus, select:focus {
+    border-color: #388E3C; 
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 150, 136, 0.5);
+}
+
+button {
+    background-color: #FF5722; 
+    color: #FFFFFF; 
+    border: 2px solid #E64A19; 
+    padding: 12px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background-color: #E64A19; 
+    transform: scale(1.05);
+}
+
+button:active {
+    background-color: #BF360C;
+}
